@@ -13,6 +13,6 @@ app.get('/', (req, res) => {
     res.send('Hi there')
 });
 
-server.listen(3000, () => {
-    console.log('Now serving up fresh data on port 3000!')
+server.listen(5001, () => {
+    console.log('Now serving up fresh data on port 5001!')
 });
